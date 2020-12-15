@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap');
+
+:root {
+    --primary-color: #FCD34D;
+    --footer-color: #FDE68A;
+    --black: #333333;
+    --width-break: 600px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Alegreya', serif;
+    color: black;
+    font-size:200%;
+    font-weight: 500;
+}
+
+
+.navbar {
+    font-size: 2rem;
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    background-color: var(--primary-color);
+    /* margin: 0px; */
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    font-size: large;
+    padding: 1rem;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 75%;
+
+}
+
+button {
+    background-color: var(--primary-color);
+    font-size: large;
+    padding: 1rem;
+    font-family: inherit;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    font-size: large;
+  
+}
+
+#btn-translate{
+    font-family: 'Alegreya', serif;
+}
+
+.output {
+    width: 100%;
+    padding: 1rem;
+    font-size: large;
+    min-height: 15vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black);
+    font-family: 'Alegreya', serif;
+    font-size: 75%;
+}
+
+footer {
+    text-align: center;
+    display: block;
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+
+}
+
+footer div {
+    font-size:inherit;
+    display: block;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}

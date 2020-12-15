@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap');
+
+:root {
+    --primary: #F2C94C;
+    --black: #333333;
+    --width-break: 600px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+
+.navbar {
+    font-size: 2rem;
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    background-color: var(--primary);
+    /* margin: 0px; */
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    font-size: large;
+    padding: 1rem;
+
+}
+
+button {
+    background-color: var(--primary);
+    /* border-color: var(--primary); */
+    font-size: large;
+    padding: 1rem;
+    font-family: inherit;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    font-size: large;
+}
+
+#btn-translate{
+    font-family: 'Alegreya', serif;
+}
+.output {
+    /* box-sizing: border-box;
+    display: block; */
+    width: 100%;
+    padding: 1rem;
+    font-size: large;
+    min-height: 20vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black);
+    font-family: 'Alegreya', serif;
+    font-size: 75%;
+}
+
+footer {
+    text-align: center;
+    display: block;
+    background-color: var(--primary);
+    padding: 1rem;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    /* display: block; */
+}
+footer div {
+    font-size: large;
+    display: block;
+    font-weight: 200;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
