@@ -69,7 +69,7 @@ button {
     width: 100%;
     padding: 1rem;
     font-size: large;
-    min-height: 15vh;
+    min-height: 10vh;
     max-height: 20vh;
     overflow: scroll;
     border: 1px solid var(--black);
